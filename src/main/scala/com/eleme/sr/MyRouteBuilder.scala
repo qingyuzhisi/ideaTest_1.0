@@ -18,4 +18,8 @@ class MyRouteBuilder(override val context : CamelContext) extends ScalaRouteBuil
       process(myProcessorMethod)
       to("log:block")
    }
+
+  def dev(): Unit = {
+    println("this is From dev branch with the 1st test example")
+  }
 }

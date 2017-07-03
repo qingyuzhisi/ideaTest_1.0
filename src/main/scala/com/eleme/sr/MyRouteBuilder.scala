@@ -23,12 +23,4 @@ class MyRouteBuilder(override val context : CamelContext) extends ScalaRouteBuil
     println("1st sample on dev")
   }
 
-  def test2():Unit={
-    println("2st sample on dev")
-  }
-
-
-  def test3():Unit={
-    println("3st sample on dev")
-  }
 }
